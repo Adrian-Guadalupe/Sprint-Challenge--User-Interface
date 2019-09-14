@@ -249,4 +249,9 @@ footer nav a {
 
 .footer-nav a {
     margin-bottom: 25px;
+    border: none;
+}
+
+.about-page {
+    border: none;
 }
