@@ -66,16 +66,33 @@ p {
     line-height: 1.4;
 }
 
+/* ////Start Here//// */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    align-items: flex-end;
+    padding-right: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
+    margin-top:20px;
     border-bottom: 1px dashed black;
 }
 
@@ -112,6 +129,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +200,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page .top-content .text-container {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;  
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-Bottom: 40px;
+}   
+
+.about-box {
+    width: 48%;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+}
+
+.about-box img {
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.about-box button {
+    padding: 2% 6%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+}
+
+.about-footer{
+    height: 50px;
+    display:flex;
+    border: none;
+}
+
+.footer-nav {
+    align-items: center;
+    padding-bottom: 33%;
+    border :none;
+}
+
+.footer-nav a {
+    margin-bottom: 25px;
+    border: none;
+}
+
+.about-page {
+    border: none;
 }

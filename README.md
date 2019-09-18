@@ -104,3 +104,34 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+
+<!-- ///// Self-Study Answers ///// -->
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+    “Semantic HTML” refers to the idea that all your HTML markup should convey the underlying meaning of your content—not its appearance. Using semantic sectioning elements as an alternative to <div> elements is an important aspect of modern web development because it makes it easier for search engines, screen readers, and other machines to identify the different parts of your website. It also helps you as a developer keep your site organized, which, in turn, makes it easier to maintain.
+
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1. Height and width properties have no effect on inline elements, while both height and width can be used to adjust sizing of block elements.
+    2. Block elements are not allowed to be nested inside inline elements, while both inline and block elements can be nested inside parent block elements.
+    3. New inline elements are displayed on the same line as preceding elements, while block elements start on a new line.
+
+
+3. What are the 4 areas of the box model?
+
+    Content- This is where text and images are rendered.
+    Padding- The space between the content and the border.
+    Border- A border that we can style around the padding and content of a box.
+    Margin- The space between the border and everything else on a web page.
+
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+    When using align-items: center, all flex items are placed at the center of the cross axis.
+
+5. Explain why git is valuable to a team of developers.
+
+    Git is a version control solution that helps us keep track of all changes made to our files, and allows us to work simultaneously with a team, saving the changes throughout the entire history of a file without adding any extra files. Through forking, branching, and merging, it allows a team to work on a project simultaneously, allowing the team to revert back to a prior version of the project if anything goes wrong with new code. It essentially allows us to time-travel to previous versions, and facilitates efficient, safe collaboration.
